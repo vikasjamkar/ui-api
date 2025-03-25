@@ -2,7 +2,7 @@ const { MongoClient, ObjectId } = require("mongodb");
 require('dotenv').config(); // Load .env variables
 const express = require("express");
 const cors = require("cors");
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 // mongodb://localhost:27017
 const DBCONNECT = process.env.MONGO_URI;
 
